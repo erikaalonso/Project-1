@@ -6,30 +6,40 @@
 }
 
 img, embed, object, video {
-    max-width:100%;
+    max-width: 100%;
 }
 
 body {
-  font-size:12px;
-  font-size:100%;
-  line-height:14px;
-  line-height:120%;
+    font-size: 12px;
+    font-size: 100%;
+    line-height: 14px;
+    line-height: 120%;
 }
 
 h1, h2, h3, h4, h5, p {
-    font-family:"Lato", sans-serif;
-    color: #404040;
+    font-family: "Lato", sans-serif;
+    color: #444;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, p a {
-  text-decoration: none;
-  color:#404040;
-  line-height:120%;
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+p a {
+    text-decoration: none;
+    color: #444;
+    line-height: 120%;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, p a:hover {
-  text-decoration: none;
-  color:#41BDC2;
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+p a:hover {
+    text-decoration: none;
+    color: #41BDC2;
 }
 
 .container {
@@ -37,75 +47,105 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, p a:hover {
 }
 
 .title-thin {
-    font-size:6em;
-    font-weight:100;
+    font-size: 6em;
+    font-weight: 100;
 }
 
 .subtitle-norm {
-    font-size:1.75em;
-    font-weight:400;
+    font-size: 1.75em;
+    font-weight: 400;
 }
 
 .hr-thin {
-    color:#848484;
-    border-top:thin solid #848484;
+	color: #888;
+	border-top: thin solid #888;
 }
 
 .hero {
-    overflow: hidden;
-    width: 100%;
-    max-height: 380px;
+	overflow: hidden;
+	width: 100%;
+	max-height: 380px;
 }
 
 .muted {
-    color: #848484;
-    font-size:3em;
+	color: #888;
+	font-size: 3em;
 }
 
-.featured{
-  overflow: hidden;
-  border: thin solid #848484;
-  padding: 3px;
-  margin: 20px 0 0;
+.featured {
+	overflow: hidden;
+	border: thin solid #888;
+	padding: 3px;
+	margin: 20px 0 0;
 }
 
 .featured:hover {
-  background-color: #404040;
-  opacity:.6;
+	background-color: #444;
+	opacity: 0.6;
 }
 
 #klinenberg {
-    max-width:100%;
-    overflow:hidden;
-  }
+	max-width: 100%;
+	overflow: hidden;
+}
 
 .subheader-xs {
-    font-size:1.5em;
-    color:#cbcbcb;
-    font-weight:normal;
-    text-align:center;
+	font-size: 1.5em;
+	color: #ccc;
+	font-weight: normal;
+	text-align: center;
 }
 
 /* SVG logo of Texas */
-
 #state {
-  max-width:100%;
+	max-width: 100%;
 }
 
 #texas {
-  fill:#404040;
-  }
-
-#houston {
-  fill:#41BDC2;
-  stroke:#00ACB3;
-  stroke-width:0.6142;
-  stroke-miterlimit:10;
-  }
-
- #houston:hover {
-  fill:#ff3f40;
-  stroke:#ff3f40;
+	fill: #444;
 }
 
+#houston {
+	fill: #41BDC2;
+	stroke: #00ACB3;
+	stroke-width: 0.6142;
+	stroke-miterlimit: 10;
+}
+
+#houston:hover {
+	fill: #ff3f40;
+	stroke: #ff3f40;
+}
 /* End SVG */
+
+/* Social Share Buttons */
+.social {
+	max-width: 100%;
+	float:right;
+}
+
+.share {
+	width: 35px;
+	max-width: 100%;
+}
+
+#fb:hover {
+	opacity: 0.8;
+}
+
+#git:hover {
+	opacity: 0.8;
+}
+
+#behance:hover {
+	opacity: 0.8;
+}
+
+#pinterest:hover {
+	opacity: 0.8;
+}
+
+#linkedin:hover {
+	opacity: 0.8;
+}
+/* End Social Share Buttons */
